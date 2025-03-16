@@ -19,10 +19,10 @@ app.config.from_object(Config)
 #app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #app.config ['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db.name
 
-app.config['MYSQL_HOST'] = 'zachgozlan.mysql.pythonanywhere-services.com'
-app.config['MYSQL_USER'] = 'zachgozlan'
-app.config['MYSQL_PASSWORD'] = 'iW_Dn6LzrqYu4Ap'
-app.config['MYSQL_DB'] = 'zachgozlan$bids'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
 
 #app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
